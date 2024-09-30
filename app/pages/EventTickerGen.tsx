@@ -4,11 +4,11 @@ interface EventTickerGenProps {
   name: String;
 }
 
-const EventTickerGen:React.FC<EventTickerGenProps> = ({name}) => {
+const EventTickerGen: React.FC<EventTickerGenProps> = ({ name }) => {
   return (
     <div className="bg-black  rounded-xl w-1/4 relative overflow-hidden">
       <div className="p-5">
-        <h2 className="absolute text-white opacity-15 -z-1 text-9xl ciko top-5 right-[-150px] ">
+        <h2 className="absolute text-white opacity-25 -z-1 text-9xl ciko bottom-[190px] right-[-170px] -rotate-90 ">
           Athena
         </h2>
         <img src="/logo.png" alt="logo" className="w-[100px]" />
