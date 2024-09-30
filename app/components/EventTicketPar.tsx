@@ -7,7 +7,7 @@ interface EventTickerParProps {
   teamName?: String;
 }
 
-const EventTickerPar: React.FC<EventTickerParProps> = ({
+const EventTicketPar: React.FC<EventTickerParProps> = ({
   name,
   eventName,
   teamName,
@@ -45,4 +45,4 @@ const EventTickerPar: React.FC<EventTickerParProps> = ({
   );
 };
 
-export default EventTickerPar;
+export default EventTicketPar;
